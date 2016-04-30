@@ -1,0 +1,15 @@
+//输入：标定数据txt文件、z1、z2、row、col、（颜色color）row col z_low z_high color
+//输出：x1、（y1）、x2、（y2）、（相应线段）
+/*int xmin, xmax, x1, x2, a1, a2, row, col, y1, y2;
+float d,z1 ,z2, ;
+a1 = z1 /0.05;
+a2 = z2 /0.05;
+d = (xmax - xmin)/20;
+x1 = xmin + d * a1;
+x2 = xmin + d * a2; //如何取整。。。
+*/
+//fd = fopen('calib_data.txt',r+);
+//row、col、z1、z2通过键盘输入
+//通过row、col与读取txt文件中的数据对应
+//读取对应数据的xin、xmax、y1、y2赋予相应值
+//计算x1、x2，画线段。

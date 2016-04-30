@@ -1,0 +1,148 @@
+d:\documents\visual studio 2013\Projects\test3_10\test3_10\bin\Debug\test3_10.exe.config
+d:\documents\visual studio 2013\Projects\test3_10\test3_10\bin\Debug\test3_10.exe
+d:\documents\visual studio 2013\Projects\test3_10\test3_10\bin\Debug\test3_10.pdb
+d:\documents\visual studio 2013\Projects\test3_10\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+d:\documents\visual studio 2013\Projects\test3_10\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+d:\documents\visual studio 2013\Projects\test3_10\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+d:\documents\visual studio 2013\Projects\test3_10\test3_10\obj\Debug\test3_10.exe
+d:\documents\visual studio 2013\Projects\test3_10\test3_10\obj\Debug\test3_10.pdb
+d:\documents\visual studio 2013\Projects\test3_10\test3_10\obj\Debug\test3_10.MainForm.resources
+G:\test3_10\test3_10\bin\Debug\test3_10.exe.config
+G:\test3_10\test3_10\obj\Debug\test3_10.exe
+G:\test3_10\test3_10\obj\Debug\test3_10.pdb
+G:\test3_10\test3_10\obj\Debug\test3_10.MainForm.resources
+G:\test3_10\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+G:\test3_10\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+G:\test3_10\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+G:\test3_10\test3_10\bin\Debug\test3_10.exe
+G:\test3_10\test3_10\bin\Debug\test3_10.pdb
+C:\Users\Xi\Desktop\test3_10\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\Xi\Desktop\test3_10\test3_10\obj\Debug\test3_10.exe
+C:\Users\Xi\Desktop\test3_10\test3_10\obj\Debug\test3_10.pdb
+C:\Users\Xi\Desktop\test3_10\test3_10\bin\Debug\test3_10.exe
+C:\Users\Xi\Desktop\test3_10\test3_10\bin\Debug\test3_10.pdb
+C:\Users\Xi\Desktop\test3_10\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\Xi\Desktop\test3_10\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\Xi\Desktop\test3_10\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\Xi\Desktop\test3_10\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\Xi\Desktop\test3_10\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+G:\嵌入式邀请赛\test3_10\test3_10\bin\Debug\test3_10.exe.config
+G:\嵌入式邀请赛\test3_10\test3_10\obj\Debug\test3_10.exe
+G:\嵌入式邀请赛\test3_10\test3_10\obj\Debug\test3_10.pdb
+G:\嵌入式邀请赛\test3_10\test3_10\bin\Debug\test3_10.exe
+G:\嵌入式邀请赛\test3_10\test3_10\bin\Debug\test3_10.pdb
+G:\嵌入式邀请赛\test3_10\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+G:\嵌入式邀请赛\test3_10\test3_10\obj\Debug\test3_10.MainForm.resources
+G:\嵌入式邀请赛\test3_10\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+G:\嵌入式邀请赛\test3_10\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+G:\嵌入式邀请赛\test3_10\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\obj\Debug\test3_10.exe
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\obj\Debug\test3_10.pdb
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\bin\Debug\test3_10.exe
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\bin\Debug\test3_10.pdb
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\clement\Desktop\嵌入式比赛\test3_10\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\bin\Debug\test3_10.exe.config
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\obj\Debug\test3_10.exe
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\obj\Debug\test3_10.pdb
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\bin\Debug\test3_10.exe
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\bin\Debug\test3_10.pdb
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\obj\Debug\test3_10.MainForm.resources
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+D:\Documents\GitHub\3Dprojection\test3_10\test3_10\obj\Debug\test3_10.othercs.calibration.resources
+C:\Users\pc\Desktop\test3_22\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\pc\Desktop\test3_22\test3_10\obj\Debug\test3_10.exe
+C:\Users\pc\Desktop\test3_22\test3_10\obj\Debug\test3_10.pdb
+C:\Users\pc\Desktop\test3_22\test3_10\bin\Debug\test3_10.exe
+C:\Users\pc\Desktop\test3_22\test3_10\bin\Debug\test3_10.pdb
+C:\Users\pc\Desktop\test3_22\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\test3_22\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\pc\Desktop\test3_22\test3_10\obj\Debug\test3_10.othercs.calibration.resources
+C:\Users\pc\Desktop\test3_22\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\pc\Desktop\test3_22\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\pc\Desktop\test3_22\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\obj\Debug\test3_10.exe
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\obj\Debug\test3_10.pdb
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\bin\Debug\test3_10.exe
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\bin\Debug\test3_10.pdb
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\obj\Debug\test3_10.othercs.calibration.resources
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\clement\Desktop\test3_22\test3_22\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\obj\Debug\test3_10.exe
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\obj\Debug\test3_10.pdb
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\bin\Debug\test3_10.exe
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\bin\Debug\test3_10.pdb
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\obj\Debug\test3_10.othercs.calibration.resources
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\clement\Desktop\test3_22 - 副本\test3_22\test3_10\obj\Debug\test3_10.othercs.draw_line.resources
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\obj\Debug\test3_10.exe
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\obj\Debug\test3_10.pdb
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\bin\Debug\test3_10.exe
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\bin\Debug\test3_10.pdb
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\obj\Debug\test3_10.othercs.calibration.resources
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\obj\Debug\test3_10.othercs.model.resources
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\pc\Desktop\test4_19\test3_22\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\computer1\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.exe
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.pdb
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.othercs.calibration.resources
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\computer1\test3_10\bin\Debug\test3_10.exe
+C:\Users\pc\Desktop\computer1\test3_10\bin\Debug\test3_10.pdb
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.othercs.model.resources
+C:\Users\pc\Desktop\computer1\test3_10\obj\Debug\test3_10.othercs.draw.resources
+C:\Users\pc\Desktop\4.28test\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.exe
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.pdb
+C:\Users\pc\Desktop\4.28test\test3_10\bin\Debug\test3_10.exe
+C:\Users\pc\Desktop\4.28test\test3_10\bin\Debug\test3_10.pdb
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.othercs.calibration.resources
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.othercs.model.resources
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.othercs.draw1.resources
+C:\Users\pc\Desktop\4.28test\test3_10\obj\Debug\test3_10.othercs.draw2.resources
+C:\Users\clement\Desktop\4.28test\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.exe
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.pdb
+C:\Users\clement\Desktop\4.28test\test3_10\bin\Debug\test3_10.exe
+C:\Users\clement\Desktop\4.28test\test3_10\bin\Debug\test3_10.pdb
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.othercs.calibration.resources
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.othercs.draw1.resources
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.othercs.model.resources
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\bin\Debug\test3_10.exe.config
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.exe
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.pdb

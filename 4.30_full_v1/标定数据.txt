@@ -1,0 +1,227 @@
+            Pen pen1 = new Pen(Color.Red, 1);
+            /*  
+              //row1
+               g.DrawLine(pen1, 7, 70, 1219, 75);//(1,1)
+               g.DrawLine(pen1, 27, 105, 1188, 105);  //(1,2)
+               g.DrawLine(pen1, 1159, 134, 56, 129);  //(1,3)
+               g.DrawLine(pen1, 1132, 158, 76, 156);  //(1,4)
+               g.DrawLine(pen1, 1110, 183, 105, 180);  //(1,5)    overlap(2,2)
+               g.DrawLine(pen1, 1093, 205, 117, 200); //(1,6)    overlap(2,3)
+               g.DrawLine(pen1, 1070, 224, 149, 220);//(1,7)
+               g.DrawLine(pen1, 164, 239, 1054, 242);//(1,8)
+               g.DrawLine(pen1, 1037, 259, 182, 256);//(1,9)
+               g.DrawLine(pen1, 196, 272, 1020, 275);//(1,10)  overlap(3,3)
+               g.DrawLine(pen1, 1007, 289, 213, 286);//(1,11)
+               g.DrawLine(pen1, 995, 303, 227, 300); //(1,12)
+              g.DrawLine(pen1, 239, 312, 984, 316); //(1,13)  
+
+
+              //row2
+              g.DrawLine(pen1, 0, 147, 1217, 150);   //(2,1)
+              g.DrawLine(pen1, 1183, 177, 19, 174);  //(2,2)
+              g.DrawLine(pen1, 1154, 204, 44, 202);//(2,3)  overlap(1,6)
+              g.DrawLine(pen1, 1127, 225, 83, 223);//(2,4)  overlap(1,7)
+              g.DrawLine(pen1, 105, 244, 1105, 247);//(2,5)
+              g.DrawLine(pen1, 1088, 266, 128, 264);//(2,6)
+              g.DrawLine(pen1, 128, 280, 1069, 282);//(2,7)
+              g.DrawLine(pen1, 1053, 298, 169, 297);//(2,8)
+              g.DrawLine(pen1, 181, 312, 1031, 313);//(2,9) overlap(3,1)
+              g.DrawLine(pen1, 1020, 326, 206, 325);//(2,10)  overlap(3,6)  (4,2)
+              g.DrawLine(pen1, 217, 339, 1008, 338);//(2,11)  overlap(3,7)
+              g.DrawLine(pen1, 229, 350, 992, 350); //(2,12)
+              g.DrawLine(pen1, 980, 362, 245, 361);//(2,13)   overlap (4,4)
+
+
+              //row3
+              g.DrawLine(pen1, 1219, 231, 19, 228);//(3,1)
+              g.DrawLine(pen1, 42, 250, 1185, 254);//(3,2)
+              g.DrawLine(pen1, 1153, 275, 79, 272);//(3,3) overlap(1,10)
+              g.DrawLine(pen1, 90, 291, 1127, 294);//(3,4)
+              g.DrawLine(pen1, 1106, 313, 101, 307);//(3,5)  overlap(4,1) (2,9)
+              g.DrawLine(pen1, 137, 324, 1074, 329);//(3,6)   overlap(4,2) (2,10)
+              g.DrawLine(pen1, 1070, 343, 154, 339);//(3,7)
+              g.DrawLine(pen1, 1050, 357, 169, 352);//(3,8)
+              g.DrawLine(pen1, 191, 365, 1020, 369);//(3,9)
+              g.DrawLine(pen1, 200, 377, 1011, 380);//(3,10)
+              g.DrawLine(pen1, 1004, 391, 217, 388);//(3,11) overlap(5,1)(4,6)
+              g.DrawLine(pen1, 996, 401, 228, 398);//(3,12)   overlap(5,2)(4,7)
+              g.DrawLine(pen1, 243, 407, 976, 410);//(3,13)
+
+
+              //row4
+              g.DrawLine(pen1, 8, 305, 1206, 307);//(4,1)
+              g.DrawLine(pen1, 1168, 331, 56, 327);//(4,2)
+              g.DrawLine(pen1, 1144, 346, 76, 342);//(4,3)
+              g.DrawLine(pen1, 107, 359, 1122, 362);//(4,4) overlap(2,13)
+              g.DrawLine(pen1, 99, 374, 1094, 375); //(4,5)
+              g.DrawLine(pen1, 1090, 389, 122, 388);//(4,6) overlap(5,1)
+              g.DrawLine(pen1, 1070, 402, 170, 400);//(4,7)  overlap(5,2)
+              g.DrawLine(pen1, 180, 411, 1041, 412);//(4,8)
+              g.DrawLine(pen1, 1024, 423, 197, 422);//(4,9)
+              g.DrawLine(pen1, 209, 431, 1015, 432);//(4,10) overlap(5,4)
+              g.DrawLine(pen1, 997, 441, 228, 440);//(4,11)   overlap(5,5)
+              g.DrawLine(pen1, 239, 448, 995, 449);//(4,12)  overlap(5,6)
+              g.DrawLine(pen1, 977, 457, 255, 456);//(4,13)
+
+
+              //row5
+              g.DrawLine(pen1, 15, 384, 1208, 391);//(5,1) overlap(4,6)
+              g.DrawLine(pen1, 1185, 405, 69, 401);//(5,2)
+              g.DrawLine(pen1, 99, 414, 1153, 419);//(5,3)
+              g.DrawLine(pen1, 1129, 432, 109, 426);//(5,4)
+              g.DrawLine(pen1, 136, 436, 1115, 443);//(5,5)  overlap(4,11)
+              g.DrawLine(pen1, 1082, 454, 150, 448);//(5,6)
+              g.DrawLine(pen1, 173, 458, 1070, 462);//(5,7)
+              g.DrawLine(pen1, 1040, 471, 190, 467);//(5,8)  overlap(6,1)
+              g.DrawLine(pen1, 204, 475, 1030, 479);//(5,9)  overlap(6,2)
+              g.DrawLine(pen1, 1015, 486, 222, 483);//(5,10)
+              g.DrawLine(pen1, 240, 490, 1003, 493);//(5,11)  overlap(6,3)
+              g.DrawLine(pen1, 991, 500, 245, 496);//(5,12)  overlap(6,4)
+              g.DrawLine(pen1, 259, 502, 980, 505);//(5,13)  overlap(6,5)
+
+
+
+              //row6
+              g.DrawLine(pen1, 31, 464, 1195, 466);//(6,1)
+              g.DrawLine(pen1, 1177, 482, 60, 476);//(6,2) 
+              g.DrawLine(pen1, 83, 486, 1168, 487);//(6,3)
+              g.DrawLine(pen1, 1126, 498, 119, 495);//(6,4)
+              g.DrawLine(pen1, 1116, 506, 134, 504);//(6,5)  overlap(5,13)
+              g.DrawLine(pen1, 1080, 513, 172, 511);//(6,6)
+              g.DrawLine(pen1, 183, 518, 1073, 520);//(6,7)
+              g.DrawLine(pen1, 1048, 527, 196, 525);//(6,8)
+              g.DrawLine(pen1, 212, 531, 1043, 532);//(6,9)
+              g.DrawLine(pen1, 1023, 538, 210, 536);//(6,10)
+              g.DrawLine(pen1, 234, 541, 1008, 543);//(6,11)
+              g.DrawLine(pen1, 994, 547, 251, 546);//(6,12)  overlap(7,1)
+              g.DrawLine(pen1, 271, 551, 975, 552);//(6,13)  overlap(7,2)
+
+
+
+              //row7
+              g.DrawLine(pen1, 4, 541, 1203, 550);  //(7,1) overlap(6,12)
+              g.DrawLine(pen1, 1169, 555, 89, 550);//(7,2)  overlap(6,13)
+              g.DrawLine(pen1, 116, 555, 1142, 560);//(7,3)
+              g.DrawLine(pen1, 1131, 566, 137, 561);//(7,4)
+              g.DrawLine(pen1, 150 ,566 ,1104, 571);//(7,5)
+              g.DrawLine(pen1, 1090, 577, 176, 571);//(7,6)
+              g.DrawLine(pen1, 186, 576, 1083, 580);//(7,7)
+              g.DrawLine(pen1, 1052, 584, 202, 580);//(7,8)
+              g.DrawLine(pen1, 216, 584, 1043, 588);//(7,9)
+              g.DrawLine(pen1, 1031, 591 ,214 ,588);//(7,10)
+              g.DrawLine(pen1, 231, 591 ,1006 ,594);//(7,11)
+              g.DrawLine(pen1, 988, 598, 253, 593);//(7,12)       
+              g.DrawLine(pen1, 232, 597, 967, 600);  //(7,13)
+             */
+
+            
+            //row8
+            g.DrawLine(pen1, 938, 691, 224, 685); //(8,1)
+            g.DrawLine(pen1, 954, 690, 207, 682);//(8,2)
+            g.DrawLine(pen1, 976, 688, 186, 678);//(8,3)
+            g.DrawLine(pen1, 999, 685, 185, 676);//(8,4)
+            g.DrawLine(pen1, 995, 681, 163, 672);//(8,5)
+            g.DrawLine(pen1, 1012, 679, 148, 669);//(8,6)
+            g.DrawLine(pen1, 1031 ,675, 131 ,666);//(8,7)
+            g.DrawLine(pen1, 127, 661, 1051, 671);//(8,8)
+            g.DrawLine(pen1, 101, 655, 1077 ,668);//(8,9)
+            g.DrawLine(pen1, 76, 653, 1095, 664);//(8,10)
+            g.DrawLine(pen1, 59, 645, 1111, 659);//(8,11)
+            g.DrawLine(pen1, 38 ,641, 1136, 654);//(8,12)
+            g.DrawLine(pen1, 24, 634, 1159, 648);//(8,13)
+            
+
+            //row14
+            g.DrawLine(pen1, 1 ,91, 1115 ,101);//(14,13)
+            g.DrawLine(pen1, 32, 122, 1132, 134);//(14,12)
+            g.DrawLine(pen1, 108, 152, 1102 ,164);//(14,11)
+            g.DrawLine(pen1, 102 ,177, 1064 ,190);//(14,10) overlap(13,13)
+            g.DrawLine(pen1, 115, 202, 1062 ,215);//(14,9)
+            g.DrawLine(pen1, 124, 226, 1049, 237);//(14,8)
+            g.DrawLine(pen1, 146, 247, 1046, 260);//(14,7)
+            g.DrawLine(pen1, 151 ,268, 997, 277);//(14,6)
+            g.DrawLine(pen1, 205 ,286, 1002 ,296);//(14,5)
+            g.DrawLine(pen1, 200, 303, 978 ,311);//(14,4) overlap(13,8)
+            g.DrawLine(pen1, 197 ,318, 960, 328);//(14,3)
+            g.DrawLine(pen1, 217, 334, 963, 341);//(14,2)
+            g.DrawLine(pen1, 232 ,347, 950, 353);//(14,1) overlap(13,7)
+            
+
+            //row13
+            g.DrawLine(pen1, 24 ,183, 1178 ,194);//(13,13)
+            g.DrawLine(pen1, 27, 210, 1142, 221);//(13,12)
+            g.DrawLine(pen1, 27, 233, 1132 ,247);//(13,11)
+            g.DrawLine(pen1, 81, 259, 1097, 271);//(13,10)
+            g.DrawLine(pen1, 91, 280, 1091, 292);//(13,9)
+            g.DrawLine(pen1, 99, 299, 1076, 311);//(13,8)  overlap(12,12)
+            g.DrawLine(pen1, 128 ,319, 1056, 330);//(13,7)  overlap(12,11)
+            g.DrawLine(pen1, 163, 336, 1025, 346);//(13,6)  overlap(12,10)
+            g.DrawLine(pen1, 174 ,353, 1010 ,361);//(13,5)
+            g.DrawLine(pen1, 198, 367, 998, 375);//(13,4) overlap(11,13)
+            g.DrawLine(pen1, 209, 380, 986, 389);//(13,3) overlap(11,12)
+            g.DrawLine(pen1, 225, 392, 976 ,401);//(13,2)
+            g.DrawLine(pen1, 250 ,405, 953, 413);//(13,1)
+            
+
+            //row12
+            g.DrawLine(pen1, 7 ,270, 1157 ,283);//(12,13)
+            g.DrawLine(pen1, 31, 292 ,1152 ,308);//(12,12)
+            g.DrawLine(pen1, 44, 317, 1131, 331);//(12,11) overlap(13,7)
+            g.DrawLine(pen1, 80, 337, 1088, 350);//(12,10) 
+            g.DrawLine(pen1, 92, 353, 1074, 368);//(12,9) 
+            g.DrawLine(pen1, 110, 370, 1061, 384);//(12,8)
+            g.DrawLine(pen1, 157, 387, 1061 ,400);//(12,7)
+            g.DrawLine(pen1, 158, 402, 1010, 412);//(12,6)
+            g.DrawLine(pen1, 172 ,415, 1000 ,425);//(12,5) overlap(11,11)
+            g.DrawLine(pen1, 184, 427, 992 ,438);//(12,4) overlap(11,10)
+            g.DrawLine(pen1, 200, 439, 986 ,449);//(12,3)
+            g.DrawLine(pen1, 216, 449, 973, 459);//(12,2)
+            g.DrawLine(pen1, 240, 461, 956 ,469);//(12,1)
+            
+
+            //row11
+            g.DrawLine(pen1, 23, 362, 1164, 373);//(11,13)
+            g.DrawLine(pen1, 87, 383, 1164, 391);//(11,12)
+            g.DrawLine(pen1, 75, 402, 1133, 411);//(11,11) overlap(12,5)
+            g.DrawLine(pen1, 87, 416, 1110, 426);//(11,10) overlap(12,4)
+            g.DrawLine(pen1, 102, 430, 1086 ,440);//(11,9) 
+            g.DrawLine(pen1, 110, 444, 1061, 454);//(11,8) 
+            g.DrawLine(pen1, 137, 458, 1041, 465);//(11,7) overlap(10,2)
+            g.DrawLine(pen1, 155, 469, 1021, 478);//(11,6) 
+            g.DrawLine(pen1, 178, 480, 1004, 489);//(11,5) 
+            g.DrawLine(pen1, 190, 490, 984 ,498);//(11,4)
+            g.DrawLine(pen1, 209 ,500, 971, 507);//(11,3)
+            g.DrawLine(pen1, 219, 509, 975, 516);//(11,2) overlap(10,9)
+            g.DrawLine(pen1, 234, 518, 955, 523);//(11,1)
+            
+
+            //row10
+            g.DrawLine(pen1, 24, 450, 1149, 466);//(10,13)
+            g.DrawLine(pen1, 29 ,465, 1147, 481);//(10,12) overlap(11,7)
+            g.DrawLine(pen1, 34, 482, 1116, 496);//(10,11)
+            g.DrawLine(pen1, 55, 493, 1093 ,508);//(10,10)
+            g.DrawLine(pen1, 77, 505, 1078 ,520);//(10,9)  overlap(11,2)
+            g.DrawLine(pen1, 92, 516, 1055 ,529);//(10,8)
+            g.DrawLine(pen1, 114 ,525, 1045 ,539);//(10,7)
+            g.DrawLine(pen1, 137, 535, 1027 ,546);//(10,6)
+            g.DrawLine(pen1, 150, 544, 1008, 554);//(10,5) overlap(9,13)
+            g.DrawLine(pen1, 171, 553, 985, 561);//(10,4)
+            g.DrawLine(pen1, 195, 558, 968 ,569);//(10,3)
+            g.DrawLine(pen1, 212, 567, 952, 575);//(10,2) overlap(9,11)
+            g.DrawLine(pen1, 236, 573, 935, 580);//(10,1)
+           
+
+            //row9
+            g.DrawLine(pen1, 6, 547, 1158, 556);//(9,13)
+            g.DrawLine(pen1, 44, 555, 1137, 565);//(9,12)
+            g.DrawLine(pen1, 58 ,563, 1124 ,575);//(9,11)
+            g.DrawLine(pen1, 69, 574, 1099, 584);//(9,10)
+            g.DrawLine(pen1, 110 ,582, 1076, 592);//(9,9)
+            g.DrawLine(pen1, 133 ,590, 1056,599);//(9,8)
+            g.DrawLine(pen1, 141 ,597, 1032 ,604);//(9,7)
+            g.DrawLine(pen1, 153, 604, 1017, 611);//(9,6)
+            g.DrawLine(pen1, 169, 609, 999, 617);//(9,5)
+            g.DrawLine(pen1, 196 ,616, 986, 621);//(9,4)
+            g.DrawLine(pen1, 210, 620 ,974, 627);//(9,3)
+            g.DrawLine(pen1, 211, 626, 956, 631);//(9,2)
+            g.DrawLine(pen1, 222, 630, 940, 635);//(9,1)
