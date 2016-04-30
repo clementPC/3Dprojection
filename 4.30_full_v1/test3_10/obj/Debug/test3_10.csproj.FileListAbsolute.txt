@@ -146,3 +146,16 @@ C:\Users\clement\Desktop\4.28test\test3_10\obj\Debug\test3_10.csproj.GenerateRes
 C:\Users\clement\Desktop\4.30_full_v1\test3_10\bin\Debug\test3_10.exe.config
 C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.exe
 C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.pdb
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\bin\Debug\test3_10.exe
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\bin\Debug\test3_10.pdb
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.MainForm.resources
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.othercs.calibration.resources
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.othercs.draw1.resources
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.othercs.model.resources
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.othercs.inputdata.resources
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.Properties.Resources.resources
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.csproj.GenerateResource.Cache
+C:\Users\clement\Desktop\4.30_full_v1\test3_10\obj\Debug\test3_10.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\3Dprojection\4.30_full_v1\test3_10\bin\Debug\test3_10.exe.config
+D:\Documents\GitHub\3Dprojection\4.30_full_v1\test3_10\obj\Debug\test3_10.exe
+D:\Documents\GitHub\3Dprojection\4.30_full_v1\test3_10\obj\Debug\test3_10.pdb

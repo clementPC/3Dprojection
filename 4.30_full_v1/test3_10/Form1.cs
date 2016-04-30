@@ -38,6 +38,7 @@ namespace test3_10
 
             pic1.Owner = this;
             pic1.StartPosition = FormStartPosition.CenterScreen;
+            this.Hide();
             if (!pic1.IsDisposed)
             {
                 pic1.ShowDialog(this);

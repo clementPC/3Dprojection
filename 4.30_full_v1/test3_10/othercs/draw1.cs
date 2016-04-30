@@ -10,7 +10,6 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 
 using System.IO;
-
 namespace test3_10.othercs
 {
     class draw1 : Form
@@ -21,6 +20,8 @@ namespace test3_10.othercs
         private Graphics g;
         private Button button1;
         private System.Windows.Forms.Button exit;
+        List<string> lines = new List<string>(File.ReadAllLines("data.txt"));
+        int drawpic_num=2;
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -30,7 +31,7 @@ namespace test3_10.othercs
             base.Dispose(disposing);
         }
 
-//draw1  -------for Form1
+        //draw1  -------for Form1
         public draw1()
         {
             InitializeComponent();
@@ -38,7 +39,7 @@ namespace test3_10.othercs
             pen1 = new Pen(Color.Yellow, 1);
             pen.DashStyle = DashStyle.Custom;
             pen.DashPattern = new float[] { 4f, 40f };
-            g = this.CreateGraphics();            
+            g = this.CreateGraphics();
         }
 
         private void InitializeComponent()
@@ -88,20 +89,44 @@ namespace test3_10.othercs
             this.ResumeLayout(false);
 
         }
+
+        public static void Delay(int milliSecond)
+        {
+            int start = Environment.TickCount;
+            while (Math.Abs(Environment.TickCount - start) < milliSecond)
+            {
+                Application.DoEvents();
+            }
+        }
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            string path1 = "4_21cylinder";    //4_21cylinder31.txt
+            string path2 = "4_21cylinder";
+            path1 += System.Convert.ToString(drawpic_num) + "1.txt";
+            path2 += System.Convert.ToString(drawpic_num) + "2.txt";
+            //Console.Clear();
+            drawpic(@path1, @path2);
+            if (drawpic_num == 2)
+                drawpic_num = 3;
+            else
+                drawpic_num = 2;
+            //Delay(1000);
+            base.OnPaint(e);
+        }
+
         private void calibration_Load(object sender, EventArgs e)
         {
             this.Paint += calibration_Paint;
         }
         void calibration_Paint(object sender, PaintEventArgs e)
         {
-            drawpic();
-            //g.DrawLine(pen, 1129, 432, 109, 426);
-            //g.DrawLine(pen, 1082, 454, 150, 448);//(5,6)
-            //g.DrawLine(pen, 173, 458, 1070, 462);//(5,7)
+            Delay(1000);
+            this.Invalidate();
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Owner.Show();
+            this.Dispose();
         }
         private void changecolor(int color)
         {
@@ -125,9 +150,10 @@ namespace test3_10.othercs
             }
         }
 
-        private void convert(List<string> lines,int row,int col,double z1,double z2,int right){
-            string[] cor_ref1 = lines[(row-1) * 26 + col*2-2].Split();
-            string[] cor_ref2 = lines[(row-1) * 26 + col*2-1].Split();
+        private void convert(List<string> lines, int row, int col, double z1, double z2, int right)
+        {
+            string[] cor_ref1 = lines[(row - 1) * 26 + col * 2 - 2].Split();
+            string[] cor_ref2 = lines[(row - 1) * 26 + col * 2 - 1].Split();
             int x1 = (Convert.ToInt32(cor_ref1[3]) > Convert.ToInt32(cor_ref2[3])) ? Convert.ToInt32(cor_ref1[3]) : Convert.ToInt32(cor_ref2[3]);
             int y1 = (Convert.ToInt32(cor_ref1[4]) > Convert.ToInt32(cor_ref2[4])) ? Convert.ToInt32(cor_ref1[4]) : Convert.ToInt32(cor_ref2[4]);
             int x2 = (Convert.ToInt32(cor_ref1[3]) < Convert.ToInt32(cor_ref2[3])) ? Convert.ToInt32(cor_ref1[3]) : Convert.ToInt32(cor_ref2[3]);
@@ -142,34 +168,16 @@ namespace test3_10.othercs
                 _x1 += 1280;
                 _x2 += 1280;
             }
-
-            g.DrawLine(pen, _x1, _y1,_x2, _y2);
+            g.DrawLine(pen, _x1, _y1, _x2, _y2);
         }
-        private void drawpic()
+        private void drawpic(string path1, string path2)
         {
             String input;
             int row, col, color;
             double z1, z2;
-            List<string> lines = new List<string>(File.ReadAllLines("data.txt"));
             //lines.AddRange(File.ReadAllLines("4_21cylinder32.txt"));
             //路径为数据文本所在文件夹
-            StreamReader sr = File.OpenText(@"4_21cylinder31.txt");    //sr = reference
-            while ((input = sr.ReadLine()) != null)
-            {
-                string[] arrays_sr = input.Split();
-                if (arrays_sr.Count() == 5)
-                { 
-                row = Convert.ToInt32(arrays_sr[0]);
-                col = Convert.ToInt32(arrays_sr[1]);
-                z1 = Convert.ToDouble(arrays_sr[2]);
-                z2 = Convert.ToDouble(arrays_sr[3]);
-                color = Convert.ToInt32(arrays_sr[4]);
-                if (color != 0)
-                    changecolor(color);
-                    convert(lines,row, col, z1, z2,0);
-                }
-            }
-            sr = File.OpenText(@"4_21cylinder32.txt");    //sr = reference
+            StreamReader sr = File.OpenText(path1);    //sr = reference
             while ((input = sr.ReadLine()) != null)
             {
                 string[] arrays_sr = input.Split();
@@ -182,12 +190,43 @@ namespace test3_10.othercs
                     color = Convert.ToInt32(arrays_sr[4]);
                     if (color != 0)
                         changecolor(color);
-                    convert(lines, row, col, z1, z2,1);
+                    convert(lines, row, col, z1, z2, 0);
+                }
+            }
+            sr = File.OpenText(path2);    //sr = reference
+            while ((input = sr.ReadLine()) != null)
+            {
+                string[] arrays_sr = input.Split();
+                if (arrays_sr.Count() == 5)
+                {
+                    row = Convert.ToInt32(arrays_sr[0]);
+                    col = Convert.ToInt32(arrays_sr[1]);
+                    z1 = Convert.ToDouble(arrays_sr[2]);
+                    z2 = Convert.ToDouble(arrays_sr[3]);
+                    color = Convert.ToInt32(arrays_sr[4]);
+                    if (color != 0)
+                        changecolor(color);
+                    convert(lines, row, col, z1, z2, 1);
                 }
             }
             sr.Close();
         }
-        
+
+        private void drawpic_constant(int num)
+        {
+            for (int i = 2; i < num+2; i++)
+            {
+                string path1 = "4_21cylinder";    //4_21cylinder31.txt
+                string path2 = "4_21cylinder";
+                path1 += System.Convert.ToString(i) + "1.txt";
+                path2 += System.Convert.ToString(i) + "2.txt";
+                //MessageBox.Show(path1);
+                drawpic(@path1, @path2);
+                Delay(1000);
+                //System.Threading.Thread.Sleep(2000);
+            }
+                
+        }
         private void FormCpy()
         {
             string sFileName = "";
@@ -198,7 +237,7 @@ namespace test3_10.othercs
             width = 2560;
             heigh = 768;
             Image myImage = new Bitmap(width, heigh);
-            
+
             System.Reflection.Assembly ass = System.Reflection.Assembly.GetExecutingAssembly();
             sFileName = sPath + DateTime.Now.ToString("yyyyMMddHHmm") + ".jpg";
             Graphics g = Graphics.FromImage(myImage);
